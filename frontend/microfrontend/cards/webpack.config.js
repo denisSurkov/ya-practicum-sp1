@@ -65,7 +65,10 @@ module.exports = (_, argv) => ({
       name: "cards",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "Card": "components/Card.js",
+        "ImagePopup": "components/ImagePopup.js"
+      },
       shared: {
         ...deps,
         react: {

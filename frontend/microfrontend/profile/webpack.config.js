@@ -65,7 +65,9 @@ module.exports = (_, argv) => ({
       name: "profile",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "Profile": "components/Profile.js",
+      },
       shared: {
         ...deps,
         react: {
