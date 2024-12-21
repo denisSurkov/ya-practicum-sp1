@@ -56,4 +56,5 @@
 
 # Задание 2
 
+Ссылка на файл с решением (файл с расширением .drawio)
 https://drive.google.com/file/d/1ZZiVzXU80ib7asIG-nAFII2KGziLTsxS/view?usp=share_link
